@@ -1,10 +1,10 @@
 { fetchFromGitHub, tree-sitter }: tree-sitter.buildGrammar {
-  language = "tree-sitter-qmljs";
+  language = "qmljs";
   version = "master";
   src = fetchFromGitHub {
     owner = "yuja";
     repo = "tree-sitter-qmljs";
-    rev = "6d4db242185721e1f5ef21fde613ca90c743ec47";
-    sha256 = "S6rBQRecJvPgyWq1iydFZgDyXbm9CZBw8kxzNI0cqdw=";
+    rev = "0bec4359a7eb2f6c9220cd57372d87d236f66d59";
+    sha256 = "tV4lipey+OAQwygRFp9lQAzgCNiZzSu7p3Mr6CCBH1g=";
   };
 }
